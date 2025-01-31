@@ -128,3 +128,38 @@ header nav ul li {
 .cta {
   margin-bottom: 20px;
 }
+
+
+  .hero {
+    height: 50vh;
+    padding: 20px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  .hero {
+    height: 30vh;
+    padding: 10px;
+  }
+  .hero h1 {
+    font-size: 18px;
+  }
+  .features li {
+    padding: 10px;
+  }
+  .testimonials {
+    padding: 20px;
+  }
+  .cta {
+    padding: 10px;
+  }
+

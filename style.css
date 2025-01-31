@@ -61,6 +61,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 20px; 
+  font-size: 24px;
 }
 
 
@@ -163,3 +164,20 @@ header nav ul li {
     padding: 10px;
   }
 
+  @media only screen and (max-width: 768px) {
+    .hero {
+      height: 50vh;
+      font-size: 18px; /* reduced font size for tablets */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .hero {
+      height: 30vh;
+      font-size: 14px; /* reduced font size for mobile phones */
+    }
+    .hero h1 {
+      font-size: 18px; /* adjusted font size for hero title on mobile phones */
+    }
+  }
+  
